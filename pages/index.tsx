@@ -121,11 +121,12 @@ const IndexPage = (props: Props) => {
 					my={5}
 					fontSize="inherit"
 				>
-					Starting with React, I have a strong understanding of the library's
-					core principles and have used it to build dynamic, responsive user
-					interfaces for a variety of web applications. I am well-versed in
-					using state management libraries such as Redux or Context API to
-					manage application state in a scalable and maintainable way.
+					Starting with React, I have a strong understanding of the
+					library&apos;s core principles and have used it to build dynamic,
+					responsive user interfaces for a variety of web applications. I am
+					well-versed in using state management libraries such as Redux or
+					Context API to manage application state in a scalable and maintainable
+					way.
 				</Text>
 				<Text
 					my={5}
