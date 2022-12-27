@@ -108,6 +108,9 @@ const DesktopLinks = () => {
 					// size="sm"
 					fontWeight={'400'}
 					colorScheme={colorScheme}
+					onClick={() => {
+						window.scrollTo(0, 0);
+					}}
 				>
 					{link.label}
 				</Button>
@@ -128,6 +131,9 @@ const MobileLinks = () => {
 					key={link.href}
 					as={Link}
 					href={`${link.href}`}
+					onClick={() => {
+						window.scrollTo(0, 0);
+					}}
 				>
 					{link.label}
 				</Button>

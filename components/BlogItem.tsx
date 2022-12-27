@@ -18,6 +18,9 @@ const BlogItem = ({ blog }: Props) => {
 					fontSize={'3xl'}
 					as={NextLink}
 					_hover={{ textDecoration: 'none', color: 'blue.400' }}
+					onClick={() => {
+						window.scrollTo(0, 0);
+					}}
 					href={`/blog/${blog.id}`}
 				>
 					{blog.title}

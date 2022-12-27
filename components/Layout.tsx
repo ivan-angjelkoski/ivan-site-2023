@@ -12,6 +12,12 @@ const variant = {
 	exit: { opacity: 0, y: 20 },
 };
 
+const variant2 = {
+	initial: { opacity: 0 },
+	animate: { opacity: 1 },
+	exit: { opacity: 0 },
+};
+
 const Layout = (props: Props) => {
 	return (
 		<div>
@@ -23,7 +29,7 @@ const Layout = (props: Props) => {
 			>
 				<motion.div
 					key={props.pathname}
-					variants={variant}
+					variants={variant2}
 					initial="initial"
 					animate="animate"
 					exit="exit"
